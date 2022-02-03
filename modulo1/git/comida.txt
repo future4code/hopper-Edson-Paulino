@@ -1,0 +1,10 @@
+1 - Pizza
+2 - Lasanha
+3 - Sushi
+4 - Bolo recheado
+5 - Hamburguer
+6 - Churrasco
+7 - Farofa
+8 - Coxinha
+9 - Macarronada
+10 - Rocambole
