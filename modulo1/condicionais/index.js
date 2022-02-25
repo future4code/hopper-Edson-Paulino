@@ -64,7 +64,7 @@
 
 // 4 - 
 
-// const filme = prompt('Qual gênero de filme irá assistir? 🤔').toLowerCase();
+// const filme = prompt('Qual gênero de filme irá assistir? 🤔').toUpperCase();
 // const preco = Number(prompt('Qual é o preço do ingresso? 🤔'));
 
 // function cinema (parametro1, parametro2) {
@@ -78,3 +78,19 @@
 
 // cinema(filme, preco);
 
+//                                                    DESAFIOS
+
+// const filme = prompt('Qual gênero de filme irá assistir? 🤔').toUpperCase();
+// const preco = Number(prompt('Qual é o preço do ingresso? 🤔'));
+// const snack = prompt('Qual snack deseja comprar?')
+
+// function cinema (parametro1, parametro2) {
+
+//     if (parametro1 === "FANTASIA" && parametro2 < 15) {
+//         console.log(`Bom filme e aproveite a ${snack}! 😉`);       
+//     } else {
+//         console.log('Escolha outro filme 🙁');
+//     }
+// };
+
+// cinema(filme, preco)
