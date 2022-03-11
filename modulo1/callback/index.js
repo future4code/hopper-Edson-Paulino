@@ -76,25 +76,46 @@ const produtos = [
 
 // A - 
 
- const nomeProdutosItem = (item, index, array) => {
-     return item.nome
- }
+//  const nomeProdutosItem = (item, index, array) => {
+//      return item.nome
+//  }
 
- const pegarNomes = produtos.map(nomeProdutosItem);
- console.log(pegarNomes) 
+//  const pegarNomes = produtos.map(nomeProdutosItem);
+//  console.log(pegarNomes) 
 
 // B - 
 
+// const promocao = produtos.map((produto) => {
+//     const novaArrayObjeto = {
+//       nome: produto.nome,
+//       preco: (produto.preco * 0.95).toFixed(2),
+//     };
+//     return novaArrayObjeto;
+//   });
 
+// console.log (promocao)
 
 // C - 
 
-// const produtoLimpeza = (item) => {
-//     return item.categoria === "Limpeza";
-// }
+// const produtosLimpeza = produtos.filter((produto) => {
+//     return produto.categoria === "Limpeza"
+// })
 
-// const filtraCategoria = produtos.filter(produtoLimpeza)
-// console.log(filtraCategoria)
+// console.log(produtosLimpeza)
+
+// D - 
+
+// const ypeNome = produtos.filter((produto) => produto.nome.includes("Ypê"));
+// console.log(ypeNome);
+
+// E - 
+
+// const ype = produtos.map((produto) => {
+//     return `Compre ${produto.nome} por ${produto.preco}`
+// })
+// console.log(ype)
+
+
 
 
 
