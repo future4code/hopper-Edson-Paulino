@@ -1,0 +1,4 @@
+Para resoluções de problemas devemos sempre ter atenção ao que é pedido para melhor compreensão do que se deve fazer,
+e daí então pensar nos dados que irão entrar e sair. após isso é uma boa prática criar um código "feio" onde iremos
+tentar passar a nossa lógica da forma que fique compreensível e após isso testar. e por fim, a refatoração, onde vamos
+deixar nosso código mais limpo e bonito visualmente.
