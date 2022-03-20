@@ -31,7 +31,7 @@ function retornaNumerosPares(array) {
         }
     });
     return filterPar;
-};
+}
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
