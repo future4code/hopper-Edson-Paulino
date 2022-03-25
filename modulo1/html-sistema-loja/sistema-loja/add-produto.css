@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* logo */
+
+.logo {
+    background-color: darkcyan;
+    width: 100%;
+    height: 50px;
+}
+
+.logo p {
+    color: white;
+    font-size: 22px;
+    padding: 10px 10px;
+}
+
+/* navbar */
+
+.navbar {
+    width: 100%;
+    background-color: rgb(10, 121, 121);
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.navbar a {
+    margin-left: 160px;
+    color: white;
+}
+
+h2 {
+    margin: 20px 520px;
+}
+
+.formulario {
+    margin: 20px 520px;
+}
+
+.formulario div {
+    margin: 0 20px;
+    padding: 10px 10px;
+}
+
+button {
+    padding: 20px;
+    margin-left: 44px;
+    border-radius: 6px;
+}

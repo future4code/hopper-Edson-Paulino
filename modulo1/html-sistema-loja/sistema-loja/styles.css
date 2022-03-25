@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500&display=swap');
+
+/* logo */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100%;
+    padding: 10px;
+    background-color: darkcyan;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo h1 {
+    margin-left: 450px;
+    color: #fff;
+} 
+
+.logo p {
+    color: white;
+    margin-left: 520px;
+}
+
+/* Menu de navegação */
+
+.navbar {
+    background-color: rgb(10, 121, 121);
+    width: 100%;
+}
+
+.navbar a {
+    margin: 10px 100px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* roda-pé */ 
+
+.baseboard {
+    margin-top: 100%;
+    padding-bottom: 15px;
+    background-color: rgb(10, 121, 121);
+}
+
+.baseboard p {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 10px;
+}
+
+.redes-sociais {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+
