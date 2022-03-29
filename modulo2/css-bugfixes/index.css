@@ -25,6 +25,10 @@ button:focus {
     color: white;
 }
 
+.container {
+    padding-top: 40px;
+}
+
 img {
     width: 100px;
 }
