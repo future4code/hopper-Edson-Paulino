@@ -160,3 +160,14 @@ td button {
     color: white;
 }
 
+.btn-centre {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    
+}
+
+div input {
+    border: none;
+    border-bottom: 1px solid black;
+}
