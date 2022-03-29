@@ -29,17 +29,25 @@ button:focus {
     padding-top: 40px;
 }
 
-img {
-    width: 100px;
-}
 
 div>p:first-child {
     display: inline;
 }
 
 div img {
-    background: black;
+    width: 100px;  
 }
+
+.container-do-search {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-do-search div img {
+    width: 20px;
+}
+
 
 .botao-amarelo {
     background-color: #ffaf43;
