@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: static;
+    text-decoration: none;
+    list-style: 0;
+}
+
+body {
+    background-image: url('/img/ceu.png');
+}
+
+a {
+    color: inherit;
+    color: white;
+}
+
+/* barra de navegação */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.navbar a {
+    margin: 14px;
+}
+
+#linha-horizontal {
+    margin-left: 290px;
+    width: 800px;
+    border: 2px solid white;
+}
+
+/* HABILIDADES */
+
+.habi {
+    color: white;
+    margin-top: 180px;
+    margin-left: 280px;
+}
+
+.texto {
+    margin-top: 60px;
+}
+
+.linha1 {
+    margin-top: 10px;
+    width: 160px;
+    color: white;
+    border: 4px solid white;
+}
+
+.linha2 {
+    margin-top: 10px;
+    width: 200px;
+    color: white;
+    border: 4px solid white;
+}
+
+.linha3 {
+    margin-top: 10px;
+    width: 240px;
+    color: white;
+    border: 4px solid white;
+}
+
+
