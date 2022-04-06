@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    height: 100vw;
+}
+
+/* CABEÇALHO */
+
+header {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-style {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header div.logo {
+    padding: 10px;
+}
+
+.btn-style {
+    margin-right: 20px;
+    align-self: center;
+    height: 30px;
+    width: 60px;
+}
+
+/* BARRA DE NAVEGAÇÃO LATERAL */
+
+.container {
+    padding: 80px 10px 40px 10px;
+    display: flex;
+    height: 100vw;
+    max-width: 260px;
+    background-color: #f2d0e0;
+}
+
+li img {
+    color: black;
+    width: 46px;
+
+    padding-right: 20px;
+}
+
+li a {
+    padding-left: 0px;
+    font-size: larger;
+}
+
+.itens {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formater {
+    padding-right: 40px;
+}
+
+
+/* Section bolos */
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.bolos {
+    align-items: flex-start;
+    padding: 60px 0 0 280px;
+    
+}
+
+.bolos img {
+    width: 260px;
+}
+
