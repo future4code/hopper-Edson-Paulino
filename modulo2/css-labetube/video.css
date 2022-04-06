@@ -1,0 +1,59 @@
+/* Universal */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+h2 {
+    color: black;
+}
+
+/* header */
+
+.container {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+input {
+    margin-right: 20px;
+    width: 100px;
+    padding: 6px 6px;
+}
+
+/* video-section */ 
+
+.container-video {
+    max-width: 960px;
+    padding-top: 100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+
+.footer-gray {
+    margin-top: 100px;
+    background-color: darkslategray;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    color: white;
+}
+
+.footer-gray h1 {
+    margin-left: 20px;
+}
