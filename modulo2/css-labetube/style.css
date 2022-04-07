@@ -1,0 +1,66 @@
+/* Universal */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* header */
+
+.container {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+input {
+    margin-right: 20px;
+    width: 100px;
+    padding: 6px 6px;
+}
+
+/* section */
+
+.section-flex {
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+
+.box-item {
+    padding-bottom: 30px;
+    border: 1px solid greenyellow;
+    margin: 6px 6px;
+}
+
+.box-item img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* footer */
+
+.footer-gray {
+    background-color: darkslategray;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    color: white;
+}
+
+.footer-gray h1 {
+    margin-left: 20px;
+}
