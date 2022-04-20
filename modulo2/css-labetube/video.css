@@ -7,6 +7,7 @@
     text-decoration: none;
 }
 
+
 h2 {
     color: black;
 }
@@ -42,6 +43,11 @@ input {
     align-items: center;
 }
 
+.size-video {
+    width: 50vh;
+    height: 50vh;
+}
+
 
 /* footer */
 
@@ -49,11 +55,8 @@ input {
     margin-top: 100px;
     background-color: darkslategray;
     align-items: center;
+    justify-content: center;
     display: flex;
     height: 60px;
     color: white;
-}
-
-.footer-gray h1 {
-    margin-left: 20px;
 }
